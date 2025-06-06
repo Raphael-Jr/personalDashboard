@@ -2,7 +2,7 @@ import ListGroup from "./Components/ListGroup";
 import Alert from "./Components/Alert";
 import Button from "./Components/Button";
 import { useState } from "react";
-import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   // let items = ["New York", "San Francisco", "London", "Tokyo", "Paris"];
