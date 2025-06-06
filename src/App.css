@@ -1,0 +1,20 @@
+:root {
+    --bgColor: whitesmoke;
+    --textColor: black;
+    --primary: #007bff;
+}
+
+body.dark-theme{
+    --bgColor: black;
+    --textColor: whitesmoke;
+    --primary: #007bff;
+}
+
+body{
+    background: var(--bgColor);
+    color: var(--textColor);
+}
+.btn{
+    background: var(--bgColor);
+    color: var(--textColor);
+}
